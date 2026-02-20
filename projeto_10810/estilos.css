@@ -1,0 +1,13 @@
+.modal-body { position: relative; display: flex; align-items: center; justify-content: center; }
+
+.modal-nav { position: absolute; top: 55%; transform: translateY(-50%); font-size:5em; color: white; background: rgba(0,0,0,0.5); border: none; border-radius: 50%; width: 50px; height: 50px; z-index: 10; cursor: pointer; display: flex; align-items: center; justify-content: center; overflow: hidden; }
+
+.modal-prev { left: 10px; }
+.modal-next { right: 10px; }
+.caixa { margin: 5px; border: rgb(37, 35, 35) 0px solid; padding: 5px; }
+
+table { width: 100%; border-collapse: collapse; }
+table, tr, td { border: gray 1px solid; }
+
+hr { height: 1px; border: rgb(37, 35, 35) 1px solid;  } 
+.c { text-align: center; }
